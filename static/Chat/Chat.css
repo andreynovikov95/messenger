@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body, h1, h2, h3, h4, p, a {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+  }
+  
+  body {
+    font-family: 'Adamina', serif;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  li {
+    list-style-type: none;
+}
+  
+.bar {
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 80px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.chat {
+    display: flex;
+    height: 100%;
+}
+
+.chat__settings {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    color: rgba(98, 98, 98, 0.5);
+    text-decoration: none;
+}
+
+.leftColumn {
+    min-width: 375px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.chatList {
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.bar:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.bar_selected {
+    background-color: #e5e5e5;
+}
+
+.bar__icon {
+    margin: 0 15px;
+    display: flex;
+}
+
+.bar__message {
+    padding-right: 15px;
+    display: block;
+    flex-grow: 1;
+}
+
+.bar__message__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar__message__title__name {
+    display: inline-block;
+    flex-grow: 1;
+    font-size: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.bar__message__title__date {
+    display: inline-block;
+    font-size: 13px;
+    font-family: 'Noto Sans JP', sans-serif;;
+    color: #848482;
+}
+
+.bar__message__content {
+    display: block;
+    font-size: 15px;
+}
+
+.bar__message__content_author {
+    font-size: 14px;
+    color: #637893;
+}
+
+.bar__message__content_message {
+    overflow: hidden;
+}
+
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #f1feff;
+}
+
+.messages__chatNotSelected {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    color: #848482;
+}

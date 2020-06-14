@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body, h1, h2, h3, h4, p, a {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+  }
+  
+  body {
+    font-family: 'Adamina', serif;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+li {
+    list-style-type: none;
+}
+
+.settingsForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f1feff;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.settingsHeader {
+    font-family: Roboto;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #626262;
+}
+
+.settings {
+    padding: 40px 56px;
+    display: flex;
+    flex-direction: column;
+}
+
+.settings__continer {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.settings__continer_img {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.settings__continer__svg {
+    position: absolute;
+    top: 9px;
+    left: 7px;
+    z-index: 1;
+}
+
+.settings__continer__label {
+    padding: 7px 25px;
+    background-color: rgba(118, 227, 237, 0.4);
+    box-shadow: 1px 1px 0px #AAE5EA;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #626262;
+    cursor: pointer;
+}
+
+.settings__continer__img {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.settings__continer__img_email {
+    top: 12px;
+}
+
+.settings__continer__img_avatar {
+    border-radius: 38px;
+}
+
+.settings__continer__input {
+    padding-right: 7px;
+    padding-left: 25px;
+    height: 30px;
+    border-radius: 10px;
+    background: #f1feff;
+    border: 1px solid #848482;
+}
+
+.change__button {
+    padding: 7px 0;
+    background: #76e3ed;
+    box-shadow: 1px 1px 0px #aae5ea;
+    border-radius: 10px;
+    border: none;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-decoration: none;
+    color: #626262;
+}
+
+.change__button:hover {
+    cursor: pointer;
+}
