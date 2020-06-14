@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Profile Settings</title>
+  <meta charset="utf-8">
+  <link
+    href="/ProfileSettings/ProfileSettings.css"
+    rel="stylesheet"
+  >
+</head>
+<body>
+    <form class="settingsForm">
+        <h1 class="settingsHeader">
+            Profile settings
+        </h1>
+        <div class='settings'>
+            <div class='settings__continer_img'>
+                <img
+                    class='settings__continer__img_avatar'
+                    src='/images/shrek2.png'
+                    alt='email icon'
+                />
+                <label
+                    class='settings__continer__label'
+                    for='avatar'
+                >
+                    Choose photo
+                </label>
+                <input
+                    class='settings__continer__img'
+                    id="avatar"
+                    type="file"
+                />
+            </div>
+            <div class='settings__continer'>
+                <img
+                    class='settings__continer__svg settings__continer__svg_email'
+                    src='/icons/email.svg'
+                    alt='email icon'
+                />
+                <input
+                    class='settings__continer__input'
+                    type='email'
+                    placeholder='Email'
+                    required
+                />
+            </div>
+                <div class='settings__continer'>
+                <img
+                    class='settings__continer__svg'
+                    src='/icons/profile.svg'
+                    alt='profile icon'
+                />
+                <input
+                    class='settings__continer__input'
+                    placeholder='Username'
+                    required
+                />
+            </div>
+            <div class='settings__continer'>
+                <img
+                    class='settings__continer__svg'
+                    src='/icons/lock.svg'
+                    alt='profile icon'
+                />
+                <input
+                    class='settings__continer__input'
+                    type='password'
+                    placeholder='Current password'
+                    required
+                />
+            </div>
+            <div class='settings__continer'>
+                <img
+                    class='settings__continer__svg'
+                    src='/icons/lock.svg'
+                    alt='profile icon'
+                />
+                <input
+                    class='settings__continer__input'
+                    type='password'
+                    placeholder='New password'
+                    required
+                />
+            </div>
+            <div class='settings__continer'>
+                <img
+                    class='settings__continer__svg'
+                    src='/icons/lock.svg'
+                    alt='profile icon'
+                />
+                <input
+                    class='settings__continer__input'
+                    type='password'
+                    placeholder='Confirm password'
+                    required
+                />
+            </div>
+            <a
+                class='change__button'
+                href='/Chat/Chat.html'
+            >
+                Change Settings
+            </a>
+        </div>
+    </form>
+</body>
+</html>

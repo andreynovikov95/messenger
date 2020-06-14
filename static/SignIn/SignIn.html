@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SingUp</title>
+  <meta charset="utf-8">
+  <link
+    href="/SignIn/SignIn.css"
+    rel="stylesheet"
+  >
+</head>
+<body>
+    <div class="authorization">
+        <form  class="authorization__form">
+            <nav>
+                <ul class='tabs'>
+                    <li class='tabs__tab tabs__tab_active'>
+                        <a
+                            class='tabs__tab__link '
+                            href='/SignIn/SignIn.html'
+                        >
+                            LOG IN
+                        </a>
+                    </li>
+                    <li class='tabs__tab'>
+                        <a
+                            class='tabs__tab__link '
+                            href='/SignUp/SignUp.html'
+                        >
+                            SIGN UP
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="authorization__form__content">
+                <div class='login'>
+                    <div class='login__continer'>
+                        <img
+                            class='login__continer__img'
+                            src='/icons/profile.svg'
+                            alt='profile icon'
+                        />
+                        <input
+                            class='login__continer__input'
+                            placeholder='Username'
+                            required
+                        />
+                    </div>
+                    <div class='login__continer'>
+                        <img
+                            class='login__continer__img'
+                            src='/icons/lock.svg'
+                            alt='profile icon'
+                        />
+                        <input
+                            class='login__continer__input'
+                            type='password'
+                            placeholder='Password'
+                            required
+                        />
+                    </div>
+                    <div class='login__helpers'>
+                        <div class='login__helpers_rememberMe'>
+                            <input
+                                class='login__helpers__checkbox'
+                                id='rememberMe'
+                                type='checkbox'
+                                disabled
+                            />
+                            <label htmlFor='rememberMe'>
+                                Remember me
+                            </label>
+                        </div>
+                        <div>
+                            Forgot password?
+                        </div>
+                    </div>
+                    <a
+                        class='login__button'
+                        href='/Chat/Chat.html'
+                    >
+                        Login
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
