@@ -2,11 +2,12 @@
 
 The app is a client application for messaging
 
-Try it https://relaxed-morse-c7d0bc.netlify.app/
+Try it https://relaxed-morse-c7d0bc.netlify.app/chat/chat
 
 Users
-| test1@test.com | 123456    | The Shrek 1   |
+| E-mail| Password    | User  |
 |----------------|-----------|---------------|
+| test1@test.com | 123456    | The Shrek 1   |
 | test2@test.com | 1234567   | The Shrek 2   |
 | test3@test.com | 12345678  | Rick Dalton 1 |
 | test4@test.com | 123456789 | Rick Dalton 2 |
